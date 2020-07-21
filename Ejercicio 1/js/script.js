@@ -1,7 +1,7 @@
 let a = parseFloat(prompt('Ingrese un primer numero para A'));
 let b = parseFloat(prompt('Ingrese un segundo numero para B'));
 
-function comparar(a, b){
+function max(a, b){
     if (a > b){
         return ('A es mayor que B');
     }else if (a == b){
@@ -11,5 +11,5 @@ function comparar(a, b){
     }
 }
 
-let resultado = comparar(a, b);
+let resultado = max(a, b);
 console.log(resultado);
